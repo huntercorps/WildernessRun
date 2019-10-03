@@ -1,0 +1,46 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: darkseagreen;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.feature .jumbotron {
+
+    color: #fff;
+    background-image: url("../images/feature.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    /*height: 400px; !* You must set a specified height *!*/
+    background-position: left top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#socialmedia {
+    background-color: seagreen;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .feature .jumbotron {
+        height: 400px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .feature .jumbotron {
+        height: 500px;
+    }
+}
+
